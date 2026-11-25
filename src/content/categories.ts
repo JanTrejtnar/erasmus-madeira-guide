@@ -6,7 +6,7 @@ export const categories: Category[] = [
     id: 'transport', icon: 'Bus', order: 1,
     title: { cs: 'Autobusy a doprava', en: 'Buses & transport' },
     summary: { cs: 'Karty, městské i meziměstské spoje, letiště.', en: 'Cards, city and intercity buses, the airport.' },
-    guideIds: ['bus-cards'],
+    guideIds: ['giro-cards', 'buses-timetables', 'airport-aerobus'],
   },
   {
     id: 'uma', icon: 'GraduationCap', order: 2,
