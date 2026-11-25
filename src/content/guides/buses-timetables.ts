@@ -18,7 +18,7 @@ export const busesTimetables: Guide = {
   verifiedAt: null,
   tldr: {
     price: { cs: 'Viz Karty GIRO a jízdné', en: 'See GIRO cards & fares' },
-    where: { cs: 'Terminály a zastávky ve Funchalu (TODO: ověřit přesné polohy)', en: 'Terminals and stops in Funchal (TODO: verify exact locations)' },
+    where: { cs: 'Jízdní řády a lokace zastávek primárně v aplikaci Madeira Timetables', en: 'Timetables and stop locations primarily in the Madeira Timetables app' },
     bring: { cs: 'Kartu GIRO nebo drobné', en: 'GIRO card or coins' },
     time: { cs: 'Frekvence a noční provoz: TODO: ověřit', en: 'Frequency and night service: TODO: verify' },
     primaryAction: { kind: 'web', label: { cs: 'Madeira Timetables', en: 'Madeira Timetables' }, linkId: 'madeira-timetables' },
@@ -35,8 +35,8 @@ export const busesTimetables: Guide = {
       rows: [
         [
           { cs: 'Jízdné hotově', en: 'Cash fare' },
-          { cs: '2,00 € (TODO: ověřit)', en: '€2.00 (TODO: verify)' },
-          { cs: '2,60 € (TODO: ověřit)', en: '€2.60 (TODO: verify)' },
+          { cs: '2,05 €', en: '€2.05' },
+          { cs: '2,65 €', en: '€2.65' },
         ],
         [
           { cs: 'Provozovatel', en: 'Operator' },
@@ -62,7 +62,7 @@ export const busesTimetables: Guide = {
     {
       type: 'list',
       items: [
-        { cs: 'Madeira Timetables: studentská aplikace s jízdními řády (odkaz níže).', en: 'Madeira Timetables: a student-made timetable app (link below).' },
+        { cs: 'Madeira Timetables (primární zdroj): studentská aplikace s jízdními řády a lokacemi zastávek.', en: 'Madeira Timetables (primary source): a student-made app with timetables and stop locations.' },
         { cs: 'Oficiální jízdní řády v PDF na webu SIGA.', en: 'Official PDF timetables on the SIGA website.' },
         { cs: 'Google Maps pro plánování trasy ve Funchalu.', en: 'Google Maps for route planning in Funchal.' },
         { cs: 'Rome2Rio jako doplněk pro srovnání tras po ostrově.', en: 'Rome2Rio as a supplement for comparing routes across the island.' },

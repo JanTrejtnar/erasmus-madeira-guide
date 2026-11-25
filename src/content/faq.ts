@@ -5,8 +5,8 @@ export const faq: FaqItem[] = [
     id: 'faq-pay-bus',
     q: { cs: 'Jak zaplatím v autobuse?', en: 'How do I pay on the bus?' },
     a: {
-      cs: 'U řidiče jen hotově, nebo kartou GIRO s kreditem (levnější). TODO: ověřit ceny.',
-      en: 'Cash only on board, or a GIRO card with credit (cheaper). TODO: verify prices.',
+      cs: 'U řidiče jen hotově, nebo kartou GIRO s kreditem (levnější). Hotově 2,05 / 2,65 €, předplaceně 1,50 / 2,00 €.',
+      en: 'Cash only on board, or a GIRO card with credit (cheaper). Cash €2.05 / €2.65, prepaid €1.50 / €2.00.',
     },
     guideId: 'giro-cards',
   },
@@ -14,8 +14,8 @@ export const faq: FaqItem[] = [
     id: 'faq-student-free',
     q: { cs: 'Mám jako student dopravu zdarma?', en: 'Is public transport free for students?' },
     a: {
-      cs: 'Vysokoškoláci do 23 let včetně ano (sub23). Nad 23 let ne. TODO: ověřit podmínky pro Erasmus studenty.',
-      en: 'Higher-ed students up to and including 23, yes (sub23). Over 23, no. TODO: verify conditions for Erasmus students.',
+      cs: 'Erasmus studenti mají nárok na sub23 zdarma (do 23 let). Pozor na měsíc 23. narozenin. Nad 23 let: TODO: ověřit slevu.',
+      en: 'Erasmus students are entitled to free sub23 (up to 23). Watch the month of your 23rd birthday. Over 23: TODO: verify the discount.',
     },
     guideId: 'giro-cards',
   },
@@ -23,8 +23,8 @@ export const faq: FaqItem[] = [
     id: 'faq-airport',
     q: { cs: 'Jak se dostanu z letiště do Funchalu?', en: 'How do I get from the airport to Funchal?' },
     a: {
-      cs: 'Aerobus (SIGA), nebo taxi/Bolt. TODO: ověřit cenu a časy.',
-      en: 'Aerobus (SIGA), or taxi/Bolt. TODO: verify price and times.',
+      cs: 'Aerobus (zhruba 7 €), jiné autobusové linky na letiště nebo taxi/Bolt. TODO: ověřit cenu a časy.',
+      en: 'Aerobus (roughly €7), other airport bus lines, or taxi/Bolt. TODO: verify price and times.',
     },
     guideId: 'airport-aerobus',
   },

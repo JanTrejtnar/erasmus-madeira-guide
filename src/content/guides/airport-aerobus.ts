@@ -16,7 +16,7 @@ export const airportAerobus: Guide = {
   ],
   verifiedAt: null,
   tldr: {
-    price: { cs: 'Předplacená jízda cca 5,55 € (TODO: ověřit), u řidiče hotově', en: 'Prepaid ticket approx. €5.55 (TODO: verify), cash on board' },
+    price: { cs: 'Aerobus zhruba kolem 7 € (TODO: ověřit přesnou cenu). Ostatní linky na letiště: běžná kartička GIRO.', en: 'Aerobus roughly €7 (TODO: verify exact price). Other airport lines: regular GIRO card.' },
     where: { cs: 'Stanoviště před halou příletů (TODO: ověřit)', en: 'Stop outside arrivals (TODO: verify)' },
     bring: { cs: 'Hotovost nebo GIRO, zavazadla', en: 'Cash or GIRO, luggage' },
     time: { cs: 'Cesta do centra: TODO: ověřit; provoz zhruba brzy ráno až po půlnoci', en: 'Ride to centre: TODO: verify; runs roughly early morning to after midnight' },
@@ -44,8 +44,8 @@ export const airportAerobus: Guide = {
       type: 'callout',
       kind: 'tip',
       text: {
-        cs: 'Pokud máš GIRO s kreditem, vyjde jízda levněji než hotově. Na letišti přibývají automaty na jízdenky (TODO: ověřit).',
-        en: 'With a topped-up GIRO the ride is cheaper than cash. Ticket machines are being added at the airport (TODO: verify).',
+        cs: 'Kromě Aerobusu jezdí na letiště i další autobusové linky, na které platí běžná karta GIRO. Linky a zastávky najdeš v aplikaci Madeira Timetables.',
+        en: 'Besides the Aerobus, other bus lines also serve the airport and accept your regular GIRO card. Find lines and stops in the Madeira Timetables app.',
       },
     },
     { type: 'section', id: 'alternatives', title: { cs: 'Alternativy', en: 'Alternatives' } },
@@ -59,8 +59,13 @@ export const airportAerobus: Guide = {
       rows: [
         [
           { cs: 'Aerobus', en: 'Aerobus' },
-          { cs: 'cca 5,55 € (TODO: ověřit)', en: 'approx. €5.55 (TODO: verify)' },
-          { cs: 'Nejlevnější, jede jen na zastávky', en: 'Cheapest, stops only at fixed stops' },
+          { cs: 'zhruba kolem 7 € (TODO: ověřit)', en: 'roughly €7 (TODO: verify)' },
+          { cs: 'Přímý spoj, jede jen na pevné zastávky', en: 'Direct service, stops only at fixed stops' },
+        ],
+        [
+          { cs: 'Běžná autobusová linka na letiště', en: 'Regular bus line to the airport' },
+          { cs: 'běžné jízdné GIRO (meziměstský tarif)', en: 'regular GIRO fare (intercity tariff)' },
+          { cs: 'Platí běžná kartička. Čísla linek a zastávky: Madeira Timetables (TODO: ověřit linky)', en: 'Your regular card works. Line numbers and stops: Madeira Timetables (TODO: verify lines)' },
         ],
         [
           { cs: 'Taxi / Bolt', en: 'Taxi / Bolt' },
